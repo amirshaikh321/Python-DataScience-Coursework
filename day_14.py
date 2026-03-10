@@ -1,7 +1,7 @@
 """
 Datatype -> List
     - Indexing
-
+    - Slicing
 List -
 list is a collection of data, list is mutable.
 """
@@ -18,3 +18,7 @@ print(list3)
 
 print(list3[3])
 print(list3[3][3])
+
+print(list1[:])
+print(list2[1:3])
+print(list1[-1:1:-1])
