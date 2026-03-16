@@ -33,3 +33,16 @@ p2_discount = p2*20/100
 selling_price['P1'] = p1-p1_discount
 selling_price['P2'] = p2-p2_discount
 print(selling_price)
+
+
+bill_unit = {'c1':100, 'c2':300}
+per_unit = 7
+
+c1_unit = bill_unit['c1']
+c2_unit = bill_unit['c2']
+total_bill = {}
+
+total_bill['c1_bill']= c1_unit*per_unit
+total_bill['c2_bill']= c2_unit*per_unit
+
+print(total_bill)
