@@ -46,3 +46,11 @@ total_bill['c1_bill']= c1_unit*per_unit
 total_bill['c2_bill']= c2_unit*per_unit
 
 print(total_bill)
+
+emp = {'name':'om raut', 'emp_id':101, 'basic_salry': 30000}
+HRA = emp['basic_salry']*10/100
+DA = emp['basic_salry']*8/100
+gross = emp['basic_salry']+HRA+DA
+
+emp.update(HRA=HRA,DA=DA,gross_sal=gross)
+print(emp)
