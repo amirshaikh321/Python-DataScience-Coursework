@@ -23,3 +23,13 @@ result['vijay raut']= total
 
 print(result)
 
+product  = {'p1':1000,'p2':5000}
+selling_price = {}
+
+p1 = product['p1']
+p2 = product['p2']
+p1_discount = p1*20/100
+p2_discount = p2*20/100
+selling_price['P1'] = p1-p1_discount
+selling_price['P2'] = p2-p2_discount
+print(selling_price)
