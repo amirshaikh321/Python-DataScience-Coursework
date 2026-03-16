@@ -54,3 +54,20 @@ gross = emp['basic_salry']+HRA+DA
 
 emp.update(HRA=HRA,DA=DA,gross_sal=gross)
 print(emp)
+
+product_purchase = {"Mobile":30000,'Laptop':50000,'Headphone':2000}
+
+gst =12/100
+p1 = product_purchase['Mobile']
+p2 = product_purchase['Laptop']
+p3 = product_purchase['Headphone']
+
+p1_gst = p1*gst
+p2_gst = p2*gst
+p3_gst = p3*gst
+
+total_bill = {}
+
+total_bill.update(Mobile = p1+p1_gst,laptop=p2+p2_gst,headphone = p3+p3_gst)
+print(total_bill)
+print(f"Mobile price :{total_bill['Mobile']}\nLaptop price: {total_bill['laptop']}\nHeadphone price: {total_bill['headphone']}")
