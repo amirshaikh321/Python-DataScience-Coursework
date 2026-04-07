@@ -111,7 +111,6 @@ while True:
 print("Total Bill".center(53,'*'))
 total =0
 for dish, details in order_items.items():
-    
     print(f"{dish:^53}")
     print('-'*53)
     
