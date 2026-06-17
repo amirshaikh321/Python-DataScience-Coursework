@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center; 
+            align-items: center;     
+            background-color: aquamarine;
+        }
+        label{
+            background-color: bisque;
+            border-radius: 4px;
+            font-size: 25px;
+            padding: 20px;
+            margin: 10px;
+        }
+        div{
+            /* flex-direction: column; */
+            margin: 30px;
+
+        }
+        .container{
+            background-color: azure;
+            border-radius:20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .cal{
+            background-color: gray;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class ="cal">
+        <input>
+    </div>
+    <div class="buttons">
+        <label for="">9</label>
+        <label for="">8</label>
+        <label for="">7</label>
+        <label for="">/</label>
+    </div>
+    <div class="buttons">
+        <label for="">6</label>
+        <label for="">5</label>
+        <label for="">4</label>
+        <label for="">*</label>
+    </div>
+    <div class="buttons">
+        <label for="">3</label>
+        <label for="">2</label>
+        <label for="">1</label>
+        <label for="">-</label>
+    </div>
+    <div class="buttons">
+        <label for="">C</label>
+        <label for="">0</label>
+        <label for="">.</label>
+        <label for="">+</label>
+    </div>
+    <div class="buttons">
+        <label for="">=</label>
+    </div>
+    </div>
+</body>
+</html>
