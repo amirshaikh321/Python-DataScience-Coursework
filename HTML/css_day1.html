@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        p{
+            color : blue;
+        }
+        .class1{
+            color: green;
+            font: bold italic 20px/30px Arial, Helvetica, sans-serif;
+        }
+        h3.class1{
+            color: orange;
+        }
+        #id1{
+            color: purple;
+            font: bold italic 15px/20px Arial, Helvetica, sans-serif;
+        }
+        h5,a{
+            color: red;
+        }
+        /* Universal Selector
+        *{
+            color: black;
+        } */
+        h2:hover{
+            color: brown;
+        }
+        h3::first-letter{
+            color: chocolate;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: bisque;">Inline css</h1>
+    <p>This is a paragraph</p>
+    <h2 class="class1">Class Selector</h2>
+    <h3 class="class1">Class Selector</h3>
+    <h4 id="id1">ID Selector</h4>
+    <h5>Group selector</h5>
+    <a>group selector</a>
+    <ol>
+        <li>BMW M4</li>
+        <li>
+            Mercedese GLS
+        </li>
+        <li>Audi A8</li>
+    </ol>
+</body>
+</html>
